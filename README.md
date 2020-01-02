@@ -1,7 +1,8 @@
 # mybatis-generator-ext-plugin
 对mybatis-generator插件的扩展
 
-## 使用，在pom.xml中的<build>---><plugins>中添加包引用，再添加generatorConfig.xml配置；如
+## 使用
+1. 在pom.xml中的<build>---><plugins>中添加包引用，再添加generatorConfig.xml配置；如
 ```xml
 
 	<build>
