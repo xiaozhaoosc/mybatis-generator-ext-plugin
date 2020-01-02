@@ -2,7 +2,15 @@
 对mybatis-generator插件的扩展
 
 ## 使用
-1. 在pom.xml中的<build>---><plugins>中添加包引用，再添加generatorConfig.xml配置；如
+1. 下载项目并打包
+```
+git clone https://github.com/xiaozhaoosc/mybatis-generator-ext-plugin.git
+cd mybatis-generator-ext-plugin/mybatis-generator-ext-plugin
+mvn clean 
+mvn install
+```
+
+2. 在pom.xml中的<build>---><plugins>中添加包引用，再添加generatorConfig.xml配置；如
 ```xml
 
 	<build>
