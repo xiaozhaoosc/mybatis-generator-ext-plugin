@@ -3,7 +3,7 @@
 
 ## 使用
 1. 下载项目并打包
-```
+```shell
 git clone https://github.com/xiaozhaoosc/mybatis-generator-ext-plugin.git
 cd mybatis-generator-ext-plugin/mybatis-generator-ext-plugin
 mvn clean 
